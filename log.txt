@@ -14,3 +14,31 @@ Scroll: 3
 17-07-2024 15:46:20: 35 Posts 
 RAM: 89.7
 CPU: 24.7
+Scroll: 0
+01-08-2024 08:35:09: 10 Posts 
+RAM: 92.5
+CPU: 53.1
+Scroll: 1
+01-08-2024 08:35:31: 16 Posts 
+RAM: 92.5
+CPU: 52.6
+Scroll: 2
+01-08-2024 08:35:43: 23 Posts 
+RAM: 92.5
+CPU: 36.5
+Scroll: 3
+01-08-2024 08:35:57: 31 Posts 
+RAM: 92.7
+CPU: 23.7
+Scroll: 0
+01-08-2024 08:45:16: 10 Posts 
+RAM: 91.9
+CPU: 48.0
+Scroll: 1
+01-08-2024 08:45:30: 16 Posts 
+RAM: 93.0
+CPU: 34.3
+Scroll: 2
+01-08-2024 08:46:03: 16 Posts 
+RAM: 89.2
+CPU: 34.7

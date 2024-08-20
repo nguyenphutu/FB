@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -21,8 +22,7 @@ class CollectGroups(object):
         # browser instance
         chrome_option = Options()
         chrome_option.add_argument("--disable-notifications")
-        self.browser = webdriver.Chrome(service=Service(executable_path=r"C:\Users\nguye\PycharmProjects\Selenium\chromedriver.exe"), options=chrome_option)
-
+        self.browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
     def close_driver(self):
         self.browser.quit()
     def collect_groups(self, category, out_file):
