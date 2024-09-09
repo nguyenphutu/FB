@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS groups (
 
 CREATE TABLE IF NOT EXISTS posts (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    group_id INT,
     post_name VARCHAR(255),
     post_user_name VARCHAR(255),
     post_user_link VARCHAR(255),
@@ -26,6 +27,7 @@ CREATE TABLE IF NOT EXISTS posts (
 
 CREATE TABLE IF NOT EXISTS comments (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    post_id INT,
     comment_info TEXT,
     comment_link VARCHAR(255),
     comment_user_name VARCHAR(255),
